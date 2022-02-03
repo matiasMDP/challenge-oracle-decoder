@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Encriptador</title>
+</head>
+
+    <body>
+
+        <h1 class="titulo">Encriptador de texto</h1>
+
+        <main class="main">
+
+            <div class="form">
+
+                <h2 class="titulo-form">Challenge - Encriptador de texto</h2>
+
+                <form id="formulario" class="formulario" action="" autocomplete="off">
+
+              
+                    <label class="form-label" for="texto">Ingrese el texto en el siguiente campo: </label>
+                    <input id="input-texto" class="form-input" type="text" name="texto">
+                    <p id="span-error" class="span-error"></p>
+    
+                    <div class="botones">
+                        <input id="btn-encriptar" class="boton" type="button" value="Encriptar">
+                        <input id="btn-desencriptar" class="boton" type="button" value="Desencriptar">
+                        <input id="btn-copy-E" class="boton "type="button" value="Copiar">
+                        <input id="btn-paste-E" class="boton "type="button" value="Pegar">
+                    </div>
+
+                    <label class="form-label" for="texto">Resultado: </label>
+                    <input id="msg" class="form-input" type="text" readonly>
+                
+                    <p id="error-copiar" class="span-error"></p>
+
+                    <div class="botones">
+                        <input id="btn-copy-D" class="boton "type="button" value="Copiar">
+                        <input id="btn-paste-D" class="boton "type="button" value="Pegar">
+                        <input id="btn-limpiar" class="boton "type="button" value="limpiar">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="challenge-info">
+                
+                <img class="logo-alura" src="img/alura-logo.svg" alt="alura-logo">
+
+        
+
+                <div class="footer">
+
+                    <p>Hecho por: <span>Matias Glorioso</span></p>
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </main>
+
+    <script src="js/botones.js"></script>
+    <script src="js/encriptar-desencriptar.js"></script>
+
+    </body>
+
+</html>
